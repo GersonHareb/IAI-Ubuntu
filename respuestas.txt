@@ -1,0 +1,11 @@
+¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?. 
+Como fue discutido en clases a veces la arquitectura podria presentarse como un obstaculo al momento de ejecutar nuestro codigo en otros equipos, tambien estan la compatibilidad y la falta de bibliotecas o recursos, pero existen alternativas para poder hacerlo, por ejemplo las Virtual Machine
+
+¿Qué tipo de máquina virtual soporta virtualBox?. 
+Windows, Linux, MacOS y otros sistemas mas elusivos y exoticos.
+
+¿Qué función cumple el hypervisor en la virtualización? 
+El VMM o hypervisor crea y gestiona las maquinas virtuales, asegurandose de que no existan conflictos entre las maquinas creadas.
+
+Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+Cada maquina virtual esta desplegada en su propio entorno, el VMM se encargade que las demas maquinas que esten en el sistema no sean afectadas por la caida de otra, aunque podria ser un cuento distinto cuando se trata de los archivos compartidos.
